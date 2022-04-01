@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'normal';
+  src: url('/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'negrito';
+  src: url('/fonts/Lato-Bold.ttf');
+}
+
+#container {
+  width: 70%;
+  margin: 50px auto 0;
+  font-family: 'normal';
+}
+
+label, select, button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select, button {
+  margin-bottom: 10px;
+  font-family: 'normal';
+  width: 200px;
+  height: 25px;
+  padding: 0 10px;
+  border-radius: 25px;
+  border: 1px solid gray;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 130%;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+span {
+  display: block;
+  margin-bottom: 10px;
+}
