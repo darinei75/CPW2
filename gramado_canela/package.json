@@ -1,0 +1,14 @@
+{
+  "name": "gramado",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0",
+    "vite-plugin-handlebars": "^1.6.0"
+  }
+}

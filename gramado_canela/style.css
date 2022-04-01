@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "title";
+  src: url(./fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(./fonts/Raleway-Regular.ttf);
+}
+
+body {
+  margin: 0px 5px 0px 0px;
+}
+
+
+#area1 {
+  grid-area: cabecalho;
+  padding: 10px 10px 10px 0px;
+  text-align: center;
+  background-color: #bca7d1;
+  
+}
+
+#area2 {
+  grid-area: conteudo;
+  background-color: #ccc3d6;
+  display: flex;
+  padding: 10px;
+    flex-direction:column;
+}
+
+#area2 p {
+  text-align: justify;
+}
+#conteiner {
+  display: grid;
+  grid-template-areas:
+      "cabecalho"
+      "conteudo";
+      grid-auto-columns: 1fr;
+}
+
+#area1 h1 {                         /*configuração somente h1 area1*/
+  color: white;
+  font-family: "slogan";
+  font-size: 300%;
+  text-shadow: 5px 5px #333;
+}
+
+#area1 span {
+  color: white;
+  font-family: "titulo";
+  font-size: 200%;
+  text-shadow: 3px 3px #333;      /*configuração sombra texto*/
+}
+
+#area1 ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: justify;
+}
+
+#area1 a {
+  text-decoration: none;
+  color: white;
+  font-family: "titulo";
+  font-size: 150%;
+  text-shadow: 2px 2px #333;
+}
+
+#area2 span {
+  color: white;
+  font-family: "titulo";
+}
+
+img {
+        width: 90%;
+ }
+
+@media only screen and (max-width: 700px) {
+    #area2 {
+        flex-direction: column;
+        
+         
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+
+
+/*
+   display: block;  aparecer no site
+   grid-area: menu;
+   background-color: blueviolet; cor de fundo
+   list-style: none;  tirar o sinal de link
+   padding: 0;  tirar os espaço entre a margem e o texto
+   text-align: center;  alinhar texto
+   display: inline;  links na mesma linha
+   margin: 22px;  distanciar links
+   filter: invert(100%); inverter cor da imagem
+   */
+  
+      
+     
